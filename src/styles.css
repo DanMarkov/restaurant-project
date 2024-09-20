@@ -1,0 +1,90 @@
+@import '../node_modules/modern-normalize/modern-normalize.css';
+
+@font-face {
+    font-family: backout;
+    src: url(./BackOut.woff2);
+    font-style: 400;
+}
+
+@font-face {
+    font-family: basteleur;
+    src: url(./Basteleur-Moonlight.woff2);
+    font-style: 400;
+}
+
+@font-face {
+    font-family: basteleur;
+    src: url(./Basteleur-Bold.woff2);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: ouroboros;
+    src: url(./Ouroboros-Regular.woff2);
+    font-weight: 400;
+}
+
+#content {
+    margin: auto 10rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr 1fr;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    grid-column: 1 / span 2;
+}
+
+.image img {
+    border-radius: 15px;
+}
+
+.headline {
+    margin-top: 2rem;
+}
+
+.headline h1 {
+    font-family: backout;
+    font-size: 3rem;
+}
+
+.headline p {
+    font-family: basteleur;
+    font-size: 2rem;
+}
+
+.left-side .menu {
+    font-family: backout;
+    font-size: 4rem;
+}
+
+.left-side .menu-item .headline-menu {
+    font-family: ouroboros;
+    font-size: 1.5rem;
+}
+
+.left-side .menu-item .menu-item-description {
+    font-family: basteleur;
+}
+
+.right-side .menu-img {
+    width: 15rem;
+}
+
+.about-image-wrapper {
+    grid-column: 1 / span 2;
+    display: flex;
+    justify-content: center;
+}
+
+.about-image-wrapper img {
+    width: 45rem;
+    border-radius: 15px;
+    
+}
+
+.about-text-wrapper {
+    margin-top: 2rem;
+}
