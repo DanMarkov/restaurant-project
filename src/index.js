@@ -20,4 +20,3 @@ function renderPage() {
 }
 
 document.addEventListener("DOMContentLoaded", renderPage);
-
